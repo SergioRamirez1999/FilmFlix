@@ -1,0 +1,33 @@
+
+.film-row {
+    position: relative;
+    top: -100px;
+    padding: 10px 0px 10px 0px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #FFF;
+}
+
+.row-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.row-content {
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.row-content .sld-item {
+    min-width: 120px;
+    height: 120px;
+    background-color: red;
+    border-radius: 3px;
+    flex: 1 1 0;
+}
+
+.row-content .sld-item:not(:first-child) {
+    margin-left: 10px;
+}

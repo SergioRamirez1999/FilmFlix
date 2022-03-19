@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="iso-8859-1">
+    <title>FilmFlix</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="nav-bar">
+            <div class="nav-lt">
+                <a href="#" class="nav-title">FilmFlix</a>
+            </div>
+            <div class="nav-ctr">
+                <ul class="nav-options">
+                    <li class="nav-opt">
+                        <a href="#" class="nav-trigger">Inicio</a>
+                    </li>
+                    <li class="nav-opt">
+                        <a href="#" class="nav-trigger">Series</a>
+                    </li>
+                    <li class="nav-opt">
+                        <a href="#" class="nav-trigger">Peliculas</a>
+                    </li>
+                    <li class="nav-opt">
+                        <a href="#" class="nav-trigger">Destacados</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-rt">
+                <a href="#">
+                    <i class="fas fa-search">
+
+                    </i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-home">
+
+                    </i>
+                </a>
+            </div>
+        </nav>
+
+        <script type="text/javascript">
+            window.addEventListener("scroll", (e) => {
+                let header = document.querySelector(".nav-bar");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            });
+        </script>
+
+    </header>
+
+    <section class="main-container">
+
+        <section class="banner"></section>
+
+        <div class="film-row">
+            <h2>Series</h2>
+
+            <div class="row-container">
+                <div class="row-content slider">
+                    <div class="sld-item asd"></div>
+                    <div class="sld-item"></div>
+                    <div class="sld-item"></div>
+                    <div class="sld-item"></div>
+                    <div class="sld-item"></div>
+                    <div class="sld-item"></div>
+                    <div class="sld-item"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="film-row">
+            <h2>Peliculas</h2>
+
+            <div class="row-container">
+                <div class="row-content slider">
+                    <div class="sld-item asd"></div>
+                    <div class="sld-item"></div>
+                    <div class="sld-item"></div>
+                    <div class="sld-item"></div>
+                    <div class="sld-item"></div>
+                    <div class="sld-item"></div>
+                    <div class="sld-item"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body></html>
